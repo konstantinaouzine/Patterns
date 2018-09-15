@@ -16,7 +16,7 @@ public class TestMain {
         System.out.println("-----------------");*/
 
         PizzaStore pizzaStore2 = new PizzaStoreChicago();
-        pizzaStore.orderPizza(CHEESE);
+        pizzaStore2.orderPizza(CHEESE);
         System.out.println("-----------------");
         pizzaStore2.orderPizza(PEPPERONI);
         System.out.println("-----------------");
