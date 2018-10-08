@@ -3,8 +3,8 @@ package Patterns.Pattern_Composite;
 public class TestMain {
     public static void main(String[] args) {
         DroneComponent djiDrones = new DronesMenu("DJI Drones");
-        djiDrones.add(new Drone("MavicPro", 1500, true));
-        djiDrones.add(new Drone("MavicZoom", 1300, true));
+        djiDrones.add(new Drone("Mavic_Pro", 1500, true));
+        djiDrones.add(new Drone("Mavic_Zoom", 1300, true));
         djiDrones.add(new Drone("Air", 1000, false));
 
         DroneComponent parrotDrones = new DronesMenu("Parrot Drones");
@@ -15,8 +15,8 @@ public class TestMain {
 
         DroneComponent restDrones = new DronesMenu("Rest of Drones");
         Drone xiaomi4K = new Drone("Mi4K", 2000, true);
-        Drone goPRO_Karma = new Drone("Go Pro Karma", 1000, false);
-        Drone yeneec = new Drone("Yuneec TyphoonH", 1100, false);
+        Drone goPRO_Karma = new Drone("Go_Pro_Karma", 1000, false);
+        Drone yeneec = new Drone("Yuneec_Typhoon_H", 1100, false);
         restDrones.add(xiaomi4K);
         restDrones.add(goPRO_Karma);
         restDrones.add(yeneec);
