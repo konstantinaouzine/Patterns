@@ -13,5 +13,9 @@ public class SaleAgent {
     public void printAll(){
             droneMenus.print();
     }
+
+    public void printAll_4K_only(){
+        droneMenus.print4K_only();
+    }
 }
 

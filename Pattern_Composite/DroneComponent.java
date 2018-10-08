@@ -24,5 +24,9 @@ public class DroneComponent {
     public void print(){
         throw new UnsupportedOperationException();
     }
+
+    public void print4K_only(){
+        throw new UnsupportedOperationException();
+    }
 }
 

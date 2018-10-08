@@ -46,4 +46,17 @@ public class DronesMenu extends DroneComponent {
         }
     }
 
+    @Override
+    public void print4K_only() {
+        //Printing company name before iterating over all models
+        System.out.println("-----" + name + "-----");
+
+        Iterator iterator = droneComponents.iterator();
+        while(iterator.hasNext())
+        {
+            DroneComponent droneComponent = (DroneComponent) iterator.next();
+            droneComponent.print4K_only();
+        }
+    }
+
 }
